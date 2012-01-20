@@ -27,9 +27,11 @@ Puedes crear plantillas, por ejemplo, html con las cabeceras que utilizas en tod
 newTemplate App Icon, thanks to http://jonasraskdesign.com
 Usage: These icons are free to use in both commercial products as well as personal use.
 
-pattern used on Dmg background thanks to http://webtreats.mysitemyway.com/
-Usage: All royalty free stock icons, clip art, images, brushes, custom shapes, layer styles, layered PSD's, patterns, textures, and other design resources on this website are free for use in both personal and commercial projects.
-You may freely use them in software programs, scrapbooking kits, web templates, Themeforest themes, websites [...]
+pattern used on Dmg background thanks to Sedma Gallery at DeviantArt http://sedma.deviantart.com/art/152-Seamless-Black-Patterns-199723534
+Usage: Only for non-commercial use.  
+Credit me with link to this file or/and my profile page.  
+Send me a link to your art because I would really like to see what have you done.  
+do not alter it and upload it somewhere else claiming it's yours.   
 
 # 4. Roadmap
 
