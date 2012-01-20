@@ -1,0 +1,54 @@
+nombre: newTemplate
+lenguaje: AppleScript
+autor: joseluisdgz
+web: http://www.joseluisdgz.com
+código (github): http://github.com/joseluisdgz/newTemplate
+licencia: http://www.opensource.org/licenses/mit-license.php
+versión: 0.1
+
+# 1. Instalación
+Copia newTemplate_es.app a una carpeta. Puede ser la carpeta Aplicaciones, o puede ser una carpeta llamada Scripts que utilices para guardar todo tipo de scripts.
+
+Arrastralá a la Barra de Herramientas de Finder para tenerla siempre a mano y que funcione correctamente. Así, cuando estés en Finder en el directorio donde quieres crear un nuevo fichero, sólo tienes que hacer clic en el icono de newTemplate.
+
+Al ejecutarla por primera vez comprueba si existe una carpeta llamada Templates en tu directorio Home. Si no existe te pide permiso para crearla, y también añadirá una plantilla de un txt, para poder crear un txt vacío de forma rápida sin necesidad de abrir un editor de texto.
+
+# 2. Uso
+En Finder abre el directorio donde quieres crear el nuevo fichero a partir de una plantilla y haz clic en el botón de newTemplate en la barra de herramientas.
+
+Todas las plantillas que añadas al directorio Templates estarán disponibles al ejecutar la aplicación.
+
+Una plantilla no es otra cosas que un fichero vacío o semivacío que se copia al directorio donde hayamos ejecutado newTemplate.
+
+Puedes crear plantillas, por ejemplo, html con las cabeceras que utilizas en todas tus páginas, un fichero en markdown con la estructura de cada artículo que publicas en tu blog, un fichero python con la cabecera incluida y las librerías que utilizas, etc
+
+# 3. Credits
+
+newTemplate App Icon, thanks to http://jonasraskdesign.com
+Usage: These icons are free to use in both commercial products as well as personal use.
+
+pattern used on Dmg background thanks to http://webtreats.mysitemyway.com/
+Usage: All royalty free stock icons, clip art, images, brushes, custom shapes, layer styles, layered PSD's, patterns, textures, and other design resources on this website are free for use in both personal and commercial projects.
+You may freely use them in software programs, scrapbooking kits, web templates, Themeforest themes, websites [...]
+
+# 4. Roadmap
+
+No tengo definido un roadmap claro. No es más que un pequeño script. Iré añadiendo pequeñas mejoras y comprobaciones para hacerlo más completo. 
+
+Algunas ideas que quiero implementar:
+   • posibilidad de ejecutar el script fuera del Finder dando la opción de seleccionar el directorio de destino
+   • permitir seleccionar múltiples plantillas a copiar
+   • seguir investigando la forma de permitir al usuario configurar algunas variables como el nombre del directorio de las plantillas. Por ahora no he encontrado la forma de hacerlo en Applescipt sin necesidad de añadir ningún script externo en otro lenguaje.
+   • quiero culminar el script creando un templateManager que permita gestionar las plantillas y añadir nuevas. Creo que mucho le estoy pidiendo a Applescript.
+
+# 5. Licencia
+
+The MIT License (MIT)
+Copyright (c) <2012> <joseluisdgz>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
