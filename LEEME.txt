@@ -4,7 +4,7 @@ autor: joseluisdgz
 web: http://www.joseluisdgz.com
 código (github): http://github.com/joseluisdgz/newTemplate
 licencia: http://www.opensource.org/licenses/mit-license.php
-versión: 0.1
+versión: 0.3
 
 # 1. Instalación
 Copia newTemplate_es.app a una carpeta. Puede ser la carpeta Aplicaciones, o puede ser una carpeta llamada Scripts que utilices para guardar todo tipo de scripts.
@@ -33,7 +33,11 @@ Credit me with link to this file or/and my profile page.
 Send me a link to your art because I would really like to see what have you done.  
 do not alter it and upload it somewhere else claiming it's yours.   
 
-# 4. Roadmap
+# 4. Cambios desde la versión 0.1
+    • v0.3: ahora newTemplate comprueba si la nueva plantilla existe en el directorio actual
+    • v0.3: al crear la nueva plantilla se selecciona automáticamente el archivo y se activa el modo para editar el nombre
+
+# 5. Roadmap
 
 No tengo definido un roadmap claro. No es más que un pequeño script. Iré añadiendo pequeñas mejoras y comprobaciones para hacerlo más completo. 
 
@@ -43,7 +47,7 @@ Algunas ideas que quiero implementar:
    • seguir investigando la forma de permitir al usuario configurar algunas variables como el nombre del directorio de las plantillas. Por ahora no he encontrado la forma de hacerlo en Applescipt sin necesidad de añadir ningún script externo en otro lenguaje.
    • quiero culminar el script creando un templateManager que permita gestionar las plantillas y añadir nuevas. Creo que mucho le estoy pidiendo a Applescript.
 
-# 5. Licencia
+# 6. Licencia
 
 The MIT License (MIT)
 Copyright (c) <2012> <joseluisdgz>

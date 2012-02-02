@@ -4,7 +4,7 @@ author: joseluisdgz
 web: http://www.joseluisdgz.com
 code (github): http://github.com/joseluisdgz/newTemplate
 license: http://www.opensource.org/licenses/mit-license.php
-version: 0.1
+version: 0.3
 
 # 1. Installation
 Copy newTemplate_en.app to a folder. It could be Applications folder, or a folder named Scripts that you use to store script files.
@@ -13,7 +13,7 @@ Just drag it into the Finder Toolbar to have it always handy, and so it will wor
 
 On launch newTemplate checks if a folder named Templates exists in your Home folder. If it doesn't exist, ask for permission to create it, and also it will add an example template: an empty txt, to create an empty text file quickly without opening a text editor.
 
-# 2. Use
+# 2. Usage
 Open the folder where you want to create the file in Finder and click newTemplate icon in Finder Toolbar.
 
 All templates you copy to Templates folder will appear in the list when you launch newTemplate.
@@ -33,7 +33,11 @@ Credit me with link to this file or/and my profile page.
 Send me a link to your art because I would really like to see what have you done.  
 do not alter it and upload it somewhere else claiming it's yours.
 
-# 4. Roadmap
+# 4. Changes since version 0.1
+    • v0.3: now newTemplate checks if the template to create exists in current folder
+    • v0.3: on create the new template, autoselect created file and activate file name editing
+
+# 5. Roadmap
 
 I don't have a defined roadmap. This is just a little script. I'll keep adding little improvements and additional checkings.
 
@@ -43,7 +47,7 @@ Some ideas I want to implement:
    • keep looking into the way to let user to config some default vars such as folder name Templates. I still haven't found a solution or a workaround without adding external apps in other languages.
    • I want to finish developing a templateManager to manage your templates and add new ones. I think I'm asking too much to applescript.
 
-# 5. License
+# 6. License
 
 The MIT License (MIT)
 Copyright (c) <2012> <joseluisdgz>
