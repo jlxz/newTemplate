@@ -1,8 +1,8 @@
 -- newTemplate applescript
 -- create a new file from a template
 -- autor: joseluisdgz
--- version: 0.1
--- fecha: 19/01/2012
+-- version: 0.3
+-- fecha: 02/02/2012
 
 -- default folder containing the template files
 set defaultTemplateFolder to "Templates"
@@ -13,6 +13,7 @@ set sp_createFolder to "La carpeta " & defaultTemplateFolder & " no existe.
 set sp_alert to "Lo siento, para que este script funcione correctamente es necesario que exista una carpeta llamada " & defaultTemplateFolder & " en tu directorio Home"
 set sp_buttons to {"S’", "No"}
 set sp_titles to {"Crear carpeta", "Selecciona una plantilla:"}
+set sp_duplicat to "La plantilla que quieres crear ya existe en el directorio actual"
 
 -- english prompts
 set en_createFolder to defaultTemplateFolder & " doesn't exist.
@@ -20,6 +21,7 @@ set en_createFolder to defaultTemplateFolder & " doesn't exist.
 set en_alert to "Sorry, for this script to work properly there must be a folder named " & defaultTemplateFolder & " in your Home folder"
 set en_buttons to {"Yes", "No"}
 set en_titles to {"Create folder", "Choose a template:"}
+set en_duplicat to "The template you want to create already exists in the current directoryr"
 
 -- default language
 set defaultLanguage to "En" --Spanish or English
@@ -30,11 +32,13 @@ if (defaultLanguage is equal to "Sp") then
 	set dAlert to sp_alert
 	set dButtons to sp_buttons
 	set dTitles to sp_titles
+	set dDup to sp_duplicat
 else if (defaultLanguage is equal to "En") then
 	set dCreateFolder to en_createFolder
 	set dAlert to en_alert
 	set dButtons to en_buttons
 	set dTitles to en_titles
+	set dDup to en_duplicat
 else
 	display alert "Wrong language.
  Please, change it to Sp (Spanish) or En (English)"
@@ -60,7 +64,15 @@ tell application "Finder"
 	set selectedTemplate to (choose from list templateList with prompt item 2 of dTitles) as string
 	repeat with currentFile in fileList
 		if (the name of currentFile) is equal to selectedTemplate then
-			duplicate currentFile to currentFolder
+			set destFile to ((currentFolder as text) & selectedTemplate)
+			try
+				destFile as alias exists
+				display alert dDup
+			on error
+				set newTemp to duplicate currentFile to currentFolder
+				select newTemp
+				tell application "System Events" to keystroke return
+			end try
 		end if
 	end repeat
 end tell
